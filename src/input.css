@@ -4,6 +4,7 @@
 
 body {
   font-family: "inter", sans-serif;
+  font-family: "Oxygen", sans-serif;
 }
 
 .navbar-fixed {
@@ -24,4 +25,15 @@ body {
 }
 .hamburger-active > span:nth-child(2) {
   @apply scale-0;
+}
+#result-text {
+  white-space: pre-line;
+}
+#hobbies-options {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hobby-option {
+  margin-right: 1rem;
 }
